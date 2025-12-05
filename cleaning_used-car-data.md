@@ -11,7 +11,7 @@
 	  	count(\*) filter (where engine is null) as engine_null,
 	  	count(\*) filter (where seats is null) as seats_null
 	  from car_data_raw;
-	- ![image.png](../assets/image_1764508909201_0.png)
+	- ![image.png](assets/image_1764508909201_0.png)
 	- All columns required for analysis contain no nulls, no dropping of columns are needed.
 - Typography checks
   collapsed:: true
@@ -26,7 +26,7 @@
 	  group by "Sales_ID"
 	  having count(*) > 1
 	  order by id_frequency;
-	- ![image.png](../assets/image_1764582396826_0.png)
+	- ![image.png](assets/image_1764582396826_0.png)
 	- There are no duplicate Sales_ID values; therefore, no rows were dropped.
 - Outlier checks
   collapsed:: true
@@ -39,7 +39,7 @@
 		  	PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY km_driven) AS q3,
 		  	MAX(km_driven) AS max_km_driven
 		  FROM car_data_raw;
-		- ![image.png](../assets/image_1764589276427_0.png){:height 68, :width 714}
+		- ![image.png](assets/image_1764589276427_0.png){:height 68, :width 714}
 		- IQR = Q3 - Q1
 		  IQR = 95,425 - 35,000 = **60,425**
 		- Q1 - 1.5 * IQR
@@ -58,7 +58,7 @@
 		  	PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY selling_price) AS q3,
 		  	MAX(selling_price) AS max_selling_price
 		  FROM car_data_raw;
-		- ![image.png](../assets/image_1764589297369_0.png)
+		- ![image.png](assets/image_1764589297369_0.png)
 		- IQR = Q3 - Q1
 		  IQR = 690,00 - 270,000 = **420,000**
 		- Q1 - 1.5 * IQR
