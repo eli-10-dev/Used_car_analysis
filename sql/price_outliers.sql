@@ -9,5 +9,5 @@ SELECT
 	 - PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY selling_price))) AS price_lower_outlier,
 	(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY selling_price) + 1.5
 	 * (PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY selling_price) 
-	 - PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY selling_price))) AS price_km_upper_outlier
+	 - PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY selling_price))) AS price_upper_outlier
 FROM car_data_raw;
