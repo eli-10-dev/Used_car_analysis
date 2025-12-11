@@ -3,7 +3,7 @@
   collapsed:: true
 	- SELECT count(\*)
 	  from car_data_raw;
-	- ![image.png](assets/image_1764507618920_0.png)
+	- ![image.png](./assets/image_1764507618920_0.png)
 - The dataset's columns are:
   collapsed:: true
 	- Sales_ID
