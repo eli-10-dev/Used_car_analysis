@@ -1,11 +1,9 @@
 - Dataset link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 - The dataset contains 7,906 rows and 18 columns.
-  collapsed:: true
 	- SELECT count(\*)
 	  from car_data_raw;
 	- ![image.png](../assets/image_1764507618920_0.png)
 - The dataset's columns are:
-  collapsed:: true
 	- Sales_ID
 	- name
 	- year
@@ -25,11 +23,8 @@
 	- seats
 	- sold
 - Dimension checks
-  collapsed:: true
 	- Categories
-	  collapsed:: true
 		- year
-		  collapsed:: true
 			- SELECT
 			  	year,
 			  	COUNT(\*)
@@ -49,7 +44,6 @@
 			  limit 5;
 			- ![image.png](../assets/image_1764511264542_0.png)
 		- fuel
-		  collapsed:: true
 			- SELECT
 			  	fuel AS fuel_type,
 			  	COUNT(\*)
@@ -58,7 +52,6 @@
 			  ORDER BY COUNT(\*);
 			- ![image.png](../assets/image_1764509575520_0.png)
 		- seller_type
-		  collapsed:: true
 			- SELECT
 			  	seller_type,
 			  	COUNT(\*)
@@ -67,7 +60,6 @@
 			  ORDER BY COUNT(*);
 			- ![image.png](../assets/image_1764509197396_0.png)
 		- transmission
-		  collapsed:: true
 			- SELECT
 			  	transmission,
 			  	COUNT(\*)
@@ -76,7 +68,6 @@
 			  ORDER BY COUNT(\*);
 			- ![image.png](../assets/image_1764509619528_0.png)
 		- owner_type
-		  collapsed:: true
 			- SELECT
 			  	owner AS owner_type,
 			  	COUNT(\*)
@@ -85,7 +76,6 @@
 			  ORDER BY COUNT(*);
 			- ![image.png](../assets/image_1764509654872_0.png)
 		- engine
-		  collapsed:: true
 			- SELECT
 			  	engine,
 			  	COUNT(\*)
@@ -94,9 +84,7 @@
 			  ORDER BY COUNT(*) DESC;
 			- ![image.png](../assets/image_1764509696170_0.png)
 			- ![image.png](../assets/image_1764509714699_0.png)
-			-
 		- seats
-		  collapsed:: true
 			- SELECT
 			  	seats,
 			  	COUNT(\*)
@@ -106,7 +94,6 @@
 			- ![image.png](../assets/image_1764509783097_0.png)
 	- Category combinations
 		- year + (transmission + fuel)
-		  collapsed:: true
 			- year + transmission + fuel
 				- SELECT
 				  	year,
@@ -130,7 +117,6 @@
 				  LIMIT 5;
 				- ![image.png](../assets/image_1764575167219_0.png)
 		- transmission + owner_type
-		  collapsed:: true
 			- SELECT
 			  	transmission,
 			  	owner AS owner_type,
@@ -139,7 +125,6 @@
 			  GROUP BY transmission, owner
 			  ORDER BY COUNT(*) DSEC;
 			- ![image.png](../assets/image_1764509918922_0.png)
-			  collapsed:: true
 				- select 
 				  	transmission,
 				  	owner as owner_type,
@@ -183,10 +168,8 @@
 			  ;
 			- ![image.png](../assets/image_1764512632213_0.png)
 - Min/max values
-  collapsed:: true
 	- selling_price & km_driven
 		- manual
-		  collapsed:: true
 			- SELECT
 			  	engine,
 			  	fuel,
@@ -207,7 +190,6 @@
 			  LIMIT 5;
 			- ![image.png](../assets/image_1764576825922_0.png)
 		- automatic
-		  collapsed:: true
 			- SELECT
 			  	engine,
 			  	fuel,
