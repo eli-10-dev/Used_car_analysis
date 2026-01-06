@@ -1,5 +1,4 @@
 - Null checks
-  collapsed:: true
 	- select 
 	  	count(\*) filter (where year is null) as year_null,
 	  	count(\*) filter (where selling_price is null) as price_null,
@@ -14,10 +13,8 @@
 	- ![image.png](../assets/image_1764508909201_0.png)
 	- All columns required for analysis contain no nulls, no dropping of columns are needed.
 - Typography checks
-  collapsed:: true
 	- Text for fuel, seller_type, transmission, and owner are standardized. All are uniformly spelled.
 - Duplicate checks
-  collapsed:: true
 	- I checked if there are duplicated through the Sales_ID column
 	- select 
 	  	"Sales_ID",
@@ -29,9 +26,7 @@
 	- ![image.png](../assets/image_1764582396826_0.png)
 	- There are no duplicate Sales_ID values; therefore, no rows were dropped.
 - Outlier checks
-  collapsed:: true
 	- km_driven
-	  collapsed:: true
 		- SELECT
 		  	MIN(km_driven) AS min_km_driven,
 		  	PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY km_driven) AS q1,
@@ -50,7 +45,6 @@
 		- 186,062.5 is the upper outlier
 		- Only the upper outlier is included, the outliers has been excluded in the analysis.
 	- selling_price
-	  collapsed:: true
 		- SELECT
 		  	MIN(selling_price) AS min_selling_price,
 		  	PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY selling_price) AS q1,
