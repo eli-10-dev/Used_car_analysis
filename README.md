@@ -1,4 +1,4 @@
-<img width="751" height="439" alt="image" src="https://github.com/user-attachments/assets/a497f392-6601-4db8-bd14-bd9a568e0f72" /># Used Car Analysis
+# Used Car Analysis
 
 **A data analysis project exploring patterns in used car data using SQL, Excel, and visualizations.**
 
@@ -14,6 +14,7 @@ sql/ - SQL scripts used in the analysis
 ## 📁 Project Overview
 This project analyzes a dataset of used car listings to understand pricing trends, relationships between features (e.g., transmission, kilometrage, mileage, and engine), and insights that could help stakeholders (buyers, sellers, analysts).
 
+Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 ---
 
 ## 🎯 Core Objective
