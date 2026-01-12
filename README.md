@@ -15,6 +15,7 @@ sql/ - SQL scripts used in the analysis
 This project analyzes a dataset of used car listings to understand pricing trends, relationships between features (e.g., transmission, kilometrage, mileage, and engine), and insights that could help stakeholders (buyers, sellers, analysts).
 
 Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
+
 ---
 
 ## 🎯 Core Objective
