@@ -1,6 +1,6 @@
 # Used Car Analysis
 
-**A data analysis project exploring patterns in used car data using SQL, Excel, and visualizations.**
+**A data analysis project exploring patterns in used car data using SQL and Excel.**
 
 ---
 
