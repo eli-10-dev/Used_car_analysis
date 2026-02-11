@@ -38,11 +38,7 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 - Regardless of engine, Manual transmission cars had more kilometrage than their automatic car counterparts. On average, manual cars had 47.01% more kilometers driven than automatic cars.
 
 <img width="753" height="453" alt="image" src="https://github.com/user-attachments/assets/4feeb4e7-0044-4a8d-aebc-b68419cb4268" />
-
-- Regardless of engine, Automatic transmission cars were more expensive than their manual transmission counterparts. On average, automatic cars were 38.27% more expensive than manual cars.
-
 <img width="751" height="439" alt="image" src="https://github.com/user-attachments/assets/a8c0d684-78fe-4486-824b-d1925770beb7" />
-
-- When comparing by kilometrage, automatic cars were always more expensive than manual cars.
+- Regardless of engine, Automatic transmission cars were more expensive than their manual transmission counterparts. Even when comparing by kilometrage, automatic cars were 38.27% more expensive than manual cars.
 
 ---
