@@ -26,10 +26,13 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 ## 🧰 Tools Used
 - **PostgreSQL:** SQL queries for data cleaning and analysis  
 - **Excel:** Charts
-  
+- **PowerBI:** Dashboard
 ---
 
 ## 📊 Key Findings
+**Dashboard**
+-![dashboard.png](../assets/used_car_dashboard.png)
+
 - Regardless of engine, Manual transmission cars had more kilometrage than their automatic car counterparts. On average, manual cars had 47.01% more kilometers driven than automatic cars.
 <img width="753" height="453" alt="image" src="https://github.com/user-attachments/assets/ff00a9a1-8c05-4455-939b-1a38dea73523" />
 
