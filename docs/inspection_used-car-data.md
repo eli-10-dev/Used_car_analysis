@@ -50,7 +50,6 @@
 		- transmission + owner_type
 			- ![image.png](../assets/image_1764509918922_0.png)
 			- ![image.png](../assets/image_1764510041476_0.png)
-			- pe (+ seats)
 		- engine + transmission counts when
 		  seller_type = individual
 		  owner = first_owner
