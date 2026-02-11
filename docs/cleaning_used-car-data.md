@@ -34,7 +34,7 @@
 		  	PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY km_driven) AS q3,
 		  	MAX(km_driven) AS max_km_driven
 		  FROM car_data_raw;
-		- ![image.png](../assets/image_1764589276427_0.png){:height 68, :width 714}
+		- ![image.png](../assets/image_1764589276427_0.png)
 		- IQR = Q3 - Q1
 		  IQR = 95,425 - 35,000 = **60,425**
 		- Q1 - 1.5 * IQR
