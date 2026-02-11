@@ -3,12 +3,13 @@
 	- With this in mind, my analysis will revolve around the relationships between engine, transmission, and selling prices.
 	- I will filter my dataset through a common seller type, owner type, fuel, and number of seats.
 - The IQR formulas are used on filtered data, the filters being
-  
 	- fuel = 'Diesel'
 	- seller_type = 'Individual'
 	- owner = 'First_Owner'
 	- seats = 5
 - Below are the visualizations from the analysis phase
+	- *Interactive dashboard summarizing key metrics and trends across transmission, price, and kilometrage.*
+	-![dashboard.png](../assets/used_car_dashboard.png)
 	- km_driven
 		- ![image.png](../assets/image_1764827442865_0.png)
 		- The distribution for km_driven is right-skewed.
